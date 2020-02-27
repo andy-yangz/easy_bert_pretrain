@@ -31,7 +31,7 @@ python train_tokenizer.py \
 
 #### Pretrain BERT
 
-Second, just set `pretrain_bert.sh` and run it.
+Second, just set `pretrain_bert.sh` and run it, especially you need specify the `tokenizer_name` to the vocab file you get from last step and `config_name` to the config file in `model` folder.
 
 ```bash
 python run_language_modeling.py \
